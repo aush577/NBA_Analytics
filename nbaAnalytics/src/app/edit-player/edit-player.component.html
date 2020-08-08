@@ -1,0 +1,332 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Edit Player</h2>
+<hr>
+<!-- 
+<div class="card">
+  <div class="card-body">
+    <form [formGroup]="angForm" novalidate>
+      
+      <div class="form-group">
+        <label class="col-md-4">ID</label>
+        <input type="number" class="form-control" formControlName="ID" #ID />
+      </div>
+
+      <div *ngIf="angForm.controls['ID'].invalid && (angForm.controls['ID'].dirty || angForm.controls['ID'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['ID'].errors.required">
+          ID is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4">Player Name</label>
+        <input type="text" class="form-control" formControlName="Name" #Name />
+      </div>
+
+      <div *ngIf="angForm.controls['Name'].invalid && (angForm.controls['Name'].dirty || angForm.controls['Name'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['Name'].errors.required">
+          Player Name is required.
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <label class="col-md-4">Weight </label>
+        <input type="number" class="form-control" formControlName="Weight" #Weight />
+      </div>
+
+      <div *ngIf="angForm.controls['Weight'].invalid && (angForm.controls['Weight'].dirty || angForm.controls['Weight'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['Weight'].errors.required">
+          Weight is required.
+        </div>
+      </div>
+     
+      <div class="form-group">
+        <label class="col-md-4">Height </label>
+        <input type="number" class="form-control" formControlName="Height" #Height />
+      </div>
+
+      <div *ngIf="angForm.controls['Height'].invalid && (angForm.controls['Height'].dirty || angForm.controls['Height'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['Height'].errors.required">
+          Height is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4">College </label>
+        <input type="text" class="form-control" formControlName="College" #College />
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4">Nationality </label>
+        <input type="text" class="form-control" formControlName="Nationality" #Nationality />
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-4">Experience </label>
+        <input type="number" class="form-control" formControlName="Experience" #Experience />
+      </div>
+
+      <div *ngIf="angForm.controls['Experience'].invalid && (angForm.controls['Experience'].dirty || angForm.controls['Experience'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['Experience'].errors.required">
+          Experience is required.
+        </div>
+      </div>      
+
+      <div class="form-group">
+        <label class="col-md-4">PPG </label>
+        <input type="number" class="form-control" formControlName="PPG" #PPG />
+      </div>
+      
+      <div *ngIf="angForm.controls['PPG'].invalid && (angForm.controls['PPG'].dirty || angForm.controls['PPG'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['PPG'].errors.required">
+          PPG is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4">RPG </label>
+        <input type="number" class="form-control" formControlName="RPG" #RPG />
+      </div>
+      
+      <div *ngIf="angForm.controls['RPG'].invalid && (angForm.controls['RPG'].dirty || angForm.controls['RPG'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['RPG'].errors.required">
+          RPG is required.
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-4">APG </label>
+        <input type="number" class="form-control" formControlName="APG" #APG />
+      </div>
+      
+      <div *ngIf="angForm.controls['APG'].invalid && (angForm.controls['APG'].dirty || angForm.controls['APG'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['APG'].errors.required">
+          APG is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4">BPG </label>
+        <input type="number" class="form-control" formControlName="BPG" #BPG />
+      </div>
+
+      <div *ngIf="angForm.controls['BPG'].invalid && (angForm.controls['BPG'].dirty || angForm.controls['BPG'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['BPG'].errors.required">
+          BPG is required.
+        </div>
+      </div>    
+
+      <div class="form-group">
+        <label class="col-md-4">FT </label>
+        <input type="number" class="form-control" formControlName="FT" #FT />
+      </div>
+
+      <div *ngIf="angForm.controls['FT'].invalid && (angForm.controls['FT'].dirty || angForm.controls['FT'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['FT'].errors.required">
+          FT is required.
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-4">FG </label>
+        <input type="number" class="form-control" formControlName="FG" #FG />
+      </div>
+
+      <div *ngIf="angForm.controls['FG'].invalid && (angForm.controls['FG'].dirty || angForm.controls['FG'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['FG'].errors.required">
+          FG is required.
+        </div>
+      </div>    
+      
+      <div class="form-group">
+        <label class="col-md-4">TPT </label>
+        <input type="number" class="form-control" formControlName="TPT" #TPT />
+      </div>
+
+      <div *ngIf="angForm.controls['TPT'].invalid && (angForm.controls['TPT'].dirty || angForm.controls['TPT'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['TPT'].errors.required">
+          TPT is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <a [routerLink]="['/player/get']" class="nav-link" routerLinkActive="active">
+          <button mat-raised-button id="submitBtn" style="color:white; background: rgb(086, 159, 232);" [disabled]="angForm.invalid" (click)="updatePlayer()">Update Player</button>
+          <button mat-raised-button id="resetBtn" style="color:white; background: rgb(233, 121, 121); float: right;" class="btn btn-danger" (click)="deletePlayer()">Delete Player</button>
+        </a>
+      </div>
+    </form>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card">
+  <div class="card-body">
+    <form [formGroup]="angForm" novalidate>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-md-4">ID</label>
+              <input type="number" class="form-control" formControlName="ID" #ID />
+            </div>
+
+            <div *ngIf="angForm.controls['ID'].invalid && (angForm.controls['ID'].dirty || angForm.controls['ID'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['ID'].errors.required">
+                ID is required.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4">Player Name</label>
+              <input type="text" class="form-control" formControlName="Name" #Name />
+            </div>
+
+            <div *ngIf="angForm.controls['Name'].invalid && (angForm.controls['Name'].dirty || angForm.controls['Name'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['Name'].errors.required">
+                Player Name is required.
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label class="col-md-4">Weight </label>
+              <input type="number" class="form-control" formControlName="Weight" #Weight />
+            </div>
+
+            <div *ngIf="angForm.controls['Weight'].invalid && (angForm.controls['Weight'].dirty || angForm.controls['Weight'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['Weight'].errors.required">
+                Weight is required.
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label class="col-md-4">Height </label>
+              <input type="number" class="form-control" formControlName="Height" #Height />
+            </div>
+
+            <div *ngIf="angForm.controls['Height'].invalid && (angForm.controls['Height'].dirty || angForm.controls['Height'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['Height'].errors.required">
+                Height is required.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4">College </label>
+              <input type="text" class="form-control" formControlName="College" #College />
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4">Nationality </label>
+              <input type="text" class="form-control" formControlName="Nationality" #Nationality />
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-4">Experience </label>
+              <input type="number" class="form-control" formControlName="Experience" #Experience />
+            </div>
+
+            <div *ngIf="angForm.controls['Experience'].invalid && (angForm.controls['Experience'].dirty || angForm.controls['Experience'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['Experience'].errors.required">
+                Experience is required.
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="col-md-4">PPG </label>
+              <input type="number" class="form-control" formControlName="PPG" #PPG />
+            </div>
+            
+            <div *ngIf="angForm.controls['PPG'].invalid && (angForm.controls['PPG'].dirty || angForm.controls['PPG'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['PPG'].errors.required">
+                PPG is required.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4">RPG </label>
+              <input type="number" class="form-control" formControlName="RPG" #RPG />
+            </div>
+            
+            <div *ngIf="angForm.controls['RPG'].invalid && (angForm.controls['RPG'].dirty || angForm.controls['RPG'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['RPG'].errors.required">
+                RPG is required.
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-4">APG </label>
+              <input type="number" class="form-control" formControlName="APG" #APG />
+            </div>
+            
+            <div *ngIf="angForm.controls['APG'].invalid && (angForm.controls['APG'].dirty || angForm.controls['APG'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['APG'].errors.required">
+                APG is required.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4">BPG </label>
+              <input type="number" class="form-control" formControlName="BPG" #BPG />
+            </div>
+
+            <div *ngIf="angForm.controls['BPG'].invalid && (angForm.controls['BPG'].dirty || angForm.controls['BPG'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['BPG'].errors.required">
+                BPG is required.
+              </div>
+            </div>    
+
+            <div class="form-group">
+              <label class="col-md-4">FT </label>
+              <input type="number" class="form-control" formControlName="FT" #FT />
+            </div>
+
+            <div *ngIf="angForm.controls['FT'].invalid && (angForm.controls['FT'].dirty || angForm.controls['FT'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['FT'].errors.required">
+                FT is required.
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-4">FG </label>
+              <input type="number" class="form-control" formControlName="FG" #FG />
+            </div>
+
+            <div *ngIf="angForm.controls['FG'].invalid && (angForm.controls['FG'].dirty || angForm.controls['FG'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['FG'].errors.required">
+                FG is required.
+              </div>
+            </div>    
+            
+            <div class="form-group">
+              <label class="col-md-4">TPT </label>
+              <input type="number" class="form-control" formControlName="TPT" #TPT />
+            </div>
+
+            <div *ngIf="angForm.controls['TPT'].invalid && (angForm.controls['TPT'].dirty || angForm.controls['TPT'].touched)" class="alert alert-danger">
+              <div *ngIf="angForm.controls['TPT'].errors.required">
+                TPT is required.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="form-group">
+  <a [routerLink]="['/player/get']" class="nav-link" routerLinkActive="active">
+    <button mat-raised-button id="submitBtn" style="color:white; background: rgb(086, 159, 232);" [disabled]="angForm.invalid" (click)="updatePlayer()">Update Player</button>
+    <button mat-raised-button id="resetBtn" style="color:white; background: rgb(233, 121, 121); float: right;" class="btn btn-danger" (click)="deletePlayer()">Delete Player</button>
+  </a>
+</div>

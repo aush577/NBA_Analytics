@@ -1,0 +1,120 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Players</h2>
+<hr>
+
+<mat-form-field>
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Ex: Zach Lavine">
+</mat-form-field>
+
+<table mat-table [dataSource]="players" matSort>
+    <!-- ID Column -->
+    <ng-container matColumnDef="ID">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+        <td mat-cell *matCellDef="let player"> {{player.ID}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+        <td mat-cell *matCellDef="let player"> {{player.Name}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="Weight">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Weight </th>
+        <td mat-cell *matCellDef="let player"> {{player.Weight}} </td>
+    </ng-container>
+
+    <!-- Height Column -->
+    <ng-container matColumnDef="Height">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Height </th>
+        <td mat-cell *matCellDef="let player"> {{player.Height}} </td>
+    </ng-container>
+
+      <!-- College Column -->
+    <ng-container matColumnDef="College">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> College </th>
+      <td mat-cell *matCellDef="let player"> {{player.College}} </td>
+    </ng-container>
+
+      <!-- Nationality Column -->
+    <ng-container matColumnDef="Nationality">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Nationality </th>
+      <td mat-cell *matCellDef="let player"> {{player.Nationality}} </td>
+    </ng-container>
+
+    <!-- Experience Column -->
+    <ng-container matColumnDef="Experience">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Experience </th>
+      <td mat-cell *matCellDef="let player"> {{player.Experience}} </td>
+    </ng-container>
+
+    <!-- Experience Column -->
+    <ng-container matColumnDef="Edit">
+      <th mat-header-cell *matHeaderCellDef> Edit </th>
+      <td mat-cell *matCellDef="let player"> <a [routerLink]="['/player/edit/', player.ID]" [state]="{player : player}" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faPencilAlt" style="color: black;" class="fa-2x"></fa-icon> </a> </td>
+    </ng-container>
+
+    <ng-container matColumnDef="View">
+      <th mat-header-cell *matHeaderCellDef> View </th>
+      <td mat-cell *matCellDef="let player"> <a [routerLink]="['/player/view/', player.ID]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+    </ng-container>
+    
+    <ng-container matColumnDef="Select">
+      <th mat-header-cell *matHeaderCellDef>Favorites</th>
+      <td mat-cell *matCellDef="let player"> 
+        <mat-checkbox
+          (click)="playerSelected(player)"
+          (change)="$event ? selection.toggle(player) : null"
+          [checked]="selection.isSelected(player)">   <!-- checked = false -->
+        </mat-checkbox>
+      </td>
+    </ng-container>
+
+    <!-- Symbol Column
+    <ng-container matColumnDef="symbol">
+        <th mat-header-cell *matHeaderCellDef> Symbol </th>
+        <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    </ng-container> -->
+
+    <ng-container matColumnDef="PPG">
+      <th mat-header-cell *matHeaderCellDef> PPG </th>
+      <td mat-cell *matCellDef="let player"> {{player.PPG}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="RPG">
+      <th mat-header-cell *matHeaderCellDef> RPG </th>
+      <td mat-cell *matCellDef="let player"> {{player.RPG}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="APG">
+      <th mat-header-cell *matHeaderCellDef> APG </th>
+      <td mat-cell *matCellDef="let player"> {{player.APG}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="BPG">
+      <th mat-header-cell *matHeaderCellDef> BPG </th>
+      <td mat-cell *matCellDef="let player"> {{player.BPG}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="FT">
+      <th mat-header-cell *matHeaderCellDef> FT </th>
+      <td mat-cell *matCellDef="let player"> {{player.FT}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="FG">
+      <th mat-header-cell *matHeaderCellDef> FG </th>
+      <td mat-cell *matCellDef="let player"> {{player.FG}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="3PT">
+      <th mat-header-cell *matHeaderCellDef> 3PT </th>
+      <td mat-cell *matCellDef="let player"> {{player.TPT}} </td>
+    </ng-container>
+
+    
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions] = "[5, 10, 25, 50, 100, 500]" [pageSize] = "10" showFirstLastButtons></mat-paginator>

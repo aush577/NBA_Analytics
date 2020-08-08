@@ -1,0 +1,22 @@
+// For each date, find the number of players who averaged 15 ppg and got injured
+SELECT i.date, COUNT(temp1.player_id)
+FROM Injury i NATURAL JOIN
+    (SELECT p.player_id, ps.PPG as ppg
+    FROM Player p NATURAL JOIN Player_Stats ps) as temp1
+WHERE ppg >= 15
+GROUP BY i.date
+    
+// Finds the number of players who average 1.5 blocks per game on each team whose name starts with c
+SELECT t.Team_Name, COUNT(DISTINCT temp2.Name) 
+FROM
+    (SELECT temp_1.Name, temp_1.BPG, PR.Player_ID, PR.Team_Name
+    FROM 
+        (SELECT *
+        FROM Player P NATURAL JOIN Player_Stats PL
+        WHERE PL.BPG > 1.5) as temp_1
+        
+        NATURAL JOIN Plays_For PR) as temp_2
+
+    NATURAL JOIN Team t
+GROUP BY t.Team_Name
+HAVING t.Team_Name LIKE "C%"

@@ -1,0 +1,26 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Team Roster: {{array['Team_Name']}}</h2>
+<hr>
+
+<table mat-table [dataSource]="teamRoster">
+  
+  <ng-container matColumnDef="ID">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let roster"> {{roster.ID}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let roster"> {{roster.Name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="View">
+    <th mat-header-cell *matHeaderCellDef> View </th>
+    <td mat-cell *matCellDef="let roster"> <a [routerLink]="['/player/view/', roster.ID]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSizeOptions] = "[5, 10, 20]" [pageSize] = "10" showFirstLastButtons></mat-paginator>
+  

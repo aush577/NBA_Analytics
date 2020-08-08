@@ -1,0 +1,496 @@
+id,Name,Weight,Height,College,Nationality,Experience,College2
+1,De'Andre Hunter,225,79,Virginia,US,0,Virginia
+2,Trae Young,180,73,Oklahoma,US,1,Oklahoma
+3,Vince Carter,220,78,UNC,US,21,UNC
+4,Cam Reddish,208,80,Duke,US,0,Duke
+5,Kevin Huerter,190,79,Maryland,US,1,Maryland
+6,Bruno Fernando,233,81,Maryland,AO,0,Maryland
+7,Damian Jones,245,83,Vanderbilt,US,3,Vanderbilt
+8,DeAndre' Bembry,210,77,Saint Joseph's,US,3,Saint Joseph's
+9,John Collins,235,81,Wake Forest,US,2,Wake Forest
+10,Brandon Goodwin,180,72,"Central Florida, Florida Gulf Coast",US,1,"Central Florida, Florida Gulf Coast"
+11,Jeff Teague,195,75,Wake Forest,US,10,Wake Forest
+12,Treveon Graham,223,77,Virginia Commonwealth,US,3,Virginia Commonwealth
+13,Dewayne Dedmon,245,84,USC,US,6,USC
+14,Charlie Brown (TW),199,78,Saint Joseph's,US,0,Saint Joseph's
+15,Clint Capela,240,82,,CH,5,Did not attend
+16,Skal LabissiÃ¨re,216,82,Kentucky,HT,3,Kentucky
+17,Brad Wanamaker,210,75,Pitt,US,1,Pitt
+18,Grant Williams,236,78,Tennessee,US,0,Tennessee
+19,Semi Ojeleye,235,78,"Duke, SMU",US,2,"Duke, SMU"
+20,Jayson Tatum,204,80,Duke,US,2,Duke
+21,Daniel Theis,215,80,,DE,2,Did not attend
+22,Marcus Smart,227,75,Oklahoma State,US,5,Oklahoma State
+23,Enes Kanter,262,82,,CH,8,Did not attend
+24,Kemba Walker,172,72,UConn,US,8,UConn
+25,Jaylen Brown,223,78,California,US,3,California
+26,Gordon Hayward,207,79,Butler,US,9,Butler
+27,Javonte Green,220,76,Radford,US,0,Radford
+28,Carsen Edwards,200,71,Purdue,US,0,Purdue
+29,Romeo Langford,216,76,Indiana,US,0,Indiana
+30,Robert Williams,237,80,Texas A&M,US,1,Texas A&M
+31,Vincent Poirier,235,84,,FR,0,Did not attend
+32,Tremont Waters (TW),175,70,LSU,US,0,LSU
+33,Tacko Fall (TW),311,89,Central Florida,SN,0,Central Florida
+34,Spencer Dinwiddie,215,77,Colorado,US,5,Colorado
+35,Taurean Prince,218,79,Baylor,US,3,Baylor
+36,Jarrett Allen,237,83,Texas,US,2,Texas
+37,Joe Harris,220,78,Virginia,US,5,Virginia
+38,DeAndre Jordan,265,83,Texas A&M,US,11,Texas A&M
+39,Garrett Temple,195,77,LSU,US,9,LSU
+40,Caris LeVert,205,78,Michigan,US,3,Michigan
+41,TimothÃ© Luwawu-Cabarrot,210,79,,FR,3,Did not attend
+42,Rodions Kurucs,228,81,,LV,1,Did not attend
+43,Wilson Chandler,235,80,DePaul,US,11,DePaul
+44,DÅ¾anan Musa,217,81,,BA,1,Did not attend
+45,Theo Pinson,212,77,UNC,US,1,UNC
+46,Kyrie Irving,195,74,Duke,AU,8,Duke
+47,Nicolas Claxton,215,83,Georgia,US,0,Georgia
+48,Chris Chiozza (TW),175,71,Florida,US,1,Florida
+49,Jeremiah Martin (TW),184,75,Memphis,US,0,Memphis
+50,Kevin Durant,240,82,Texas,US,12,Texas
+51,Coby White,185,76,UNC,US,0,UNC
+52,TomÃ¡Å¡ SatoranskÃ½,198,79,,CZ,3,Did not attend
+53,Thaddeus Young,220,80,Georgia Tech,US,12,Georgia Tech
+54,Zach LaVine,181,78,UCLA,US,5,UCLA
+55,Ryan Arcidiacono,195,75,Villanova,US,2,Villanova
+56,Kris Dunn,205,75,Providence,US,3,Providence
+57,Lauri Markkanen,240,84,Arizona,FI,2,Arizona
+58,Wendell Carter Jr.,259,81,Duke,US,1,Duke
+59,Daniel Gafford,234,82,Arkansas,US,0,Arkansas
+60,Shaquille Harrison,190,79,Tulsa,US,2,Tulsa
+61,Denzel Valentine,210,76,Michigan State,US,2,Michigan State
+62,Luke Kornet,240,86,Vanderbilt,US,2,Vanderbilt
+63,Chandler Hutchison,196,79,Boise State,US,1,Boise State
+64,Cristiano FelÃ­cio,270,82,,BR,4,Did not attend
+65,Otto Porter,198,80,Georgetown,US,6,Georgetown
+66,Adam Mokoka (TW),190,77,,FR,0,Did not attend
+67,Max Strus (TW),215,78,"Lewis, DePaul",US,0,"Lewis, DePaul"
+68,Miles Bridges,225,78,Michigan State,US,1,Michigan State
+69,Devonte' Graham,185,73,Kansas,US,1,Kansas
+70,Terry Rozier,190,73,Louisville,US,4,Louisville
+71,P.J. Washington,236,79,Kentucky,US,0,Kentucky
+72,Cody Zeller,240,84,Indiana,US,6,Indiana
+73,Malik Monk,200,75,Kentucky,US,2,Kentucky
+74,Bismack Biyombo,255,80,,CD,8,Did not attend
+75,Cody Martin,205,77,"NC State, Nevada",US,0,"NC State, Nevada"
+76,Dwayne Bacon,221,78,Florida State,US,2,Florida State
+77,Willy HernangÃ³mez,240,83,,ES,3,Did not attend
+78,Nicolas Batum,200,81,,FR,11,Did not attend
+79,Caleb Martin,205,77,"NC State, Nevada",US,0,"NC State, Nevada"
+80,Jalen McDaniels,192,82,San Diego State,US,0,San Diego State
+81,Joe Chealey,190,75,College of Charleston,US,1,College of Charleston
+82,Kobi Simmons (TW),166,77,Arizona,US,2,Arizona
+83,Ray Spalding (TW),215,82,Louisville,US,1,Louisville
+84,Collin Sexton,190,73,Alabama,US,1,Alabama
+85,Cedi Osman,215,79,,MK,2,Did not attend
+86,Darius Garland,175,73,Vanderbilt,US,0,Vanderbilt
+87,Tristan Thompson,238,81,Texas,CA,8,Texas
+88,Matthew Dellavedova,200,75,Saint Mary's,AU,6,Saint Mary's
+89,Kevin Love,251,80,UCLA,US,11,UCLA
+90,Larry Nance Jr.,230,79,Wyoming,US,4,Wyoming
+91,Kevin Porter Jr.,216,76,USC,US,0,USC
+92,Alfonzo McKinnie,215,79,Green Bay,US,2,Green Bay
+93,Dante Exum,190,77,,AU,4,Did not attend
+94,Ante Å½iÅ¾iÄ‡,254,82,,HR,2,Did not attend
+95,Dean Wade (TW),228,81,Kansas State,US,0,Kansas State
+96,Andre Drummond,279,82,UConn,US,7,UConn
+97,Matt Mooney (TW),200,75,"United States Air Force Academy, University of South Dakota, Texas Tech",US,0,"United States Air Force Academy, University of South Dakota, Texas Tech"
+98,Sir'Dominic Pointer,192,78,St. John's,US,0,St. John's
+99,Sheldon Mac,200,77,Miami (FL),US,1,Miami (FL)
+100,Dylan Windler,196,78,Belmont,US,0,Belmont
+101,Maxi Kleber,240,82,,DE,2,Did not attend
+102,Delon Wright,183,77,Utah,US,4,Utah
+103,Dorian Finney-Smith,220,79,Florida,US,3,Florida
+104,Tim Hardaway Jr.,205,77,Michigan,US,6,Michigan
+105,Seth Curry,185,74,"Liberty, Duke",US,5,"Liberty, Duke"
+106,Justin Jackson,210,79,UNC,US,2,UNC
+107,Jalen Brunson,190,73,Villanova,US,1,Villanova
+108,Luka DonÄiÄ‡,218,79,,SI,1,Did not attend
+109,Kristaps PorziÅ†Ä£is,240,87,,LV,3,Did not attend
+110,Dwight Powell,240,82,Stanford,CA,5,Stanford
+111,Boban MarjanoviÄ‡,290,88,,RS,4,Did not attend
+112,J.J. Barea,185,70,Northeastern University,PR,13,Northeastern University
+113,Courtney Lee,215,77,Western Kentucky,US,11,Western Kentucky
+114,Willie Cauley-Stein,240,84,Kentucky,US,4,Kentucky
+115,Michael Kidd-Gilchrist,232,78,Kentucky,US,7,Kentucky
+116,Antonius Cleveland (TW),195,77,SE Missouri State,US,1,SE Missouri State
+117,Josh Reaves (TW),215,76,Penn State,US,0,Penn State
+118,Nikola JokiÄ‡,253,84,,RS,4,Did not attend
+119,Monte Morris,175,74,Iowa State,US,2,Iowa State
+120,Jerami Grant,214,80,Syracuse,US,5,Syracuse
+121,Will Barton,175,77,Memphis,US,7,Memphis
+122,Gary Harris,205,76,Michigan State,US,5,Michigan State
+123,Jamal Murray,201,76,Kentucky,CA,3,Kentucky
+124,Mason Plumlee,238,83,Duke,US,6,Duke
+125,Torrey Craig,215,79,USC Upstate,US,2,USC Upstate
+126,Michael Porter Jr.,215,82,Missouri,US,0,Missouri
+127,Paul Millsap,250,79,Louisiana Tech,US,13,Louisiana Tech
+128,PJ Dozier (TW),205,78,South Carolina,US,2,South Carolina
+129,Vlatko ÄŒanÄar,210,80,,SI,0,Did not attend
+130,Noah Vonleh,257,82,Indiana,US,5,Indiana
+131,Keita Bates-Diop,229,80,Ohio State,US,1,Ohio State
+132,Troy Daniels,205,76,Virginia Commonwealth,US,6,Virginia Commonwealth
+133,Bol Bol (TW),235,86,Oregon,SD,0,Oregon
+134,Langston Galloway,200,73,Saint Joseph's,US,5,Saint Joseph's
+135,Christian Wood,214,82,UNLV,US,3,UNLV
+136,Thon Maker,221,84,,SS,3,Did not attend
+137,Tony Snell,213,78,New Mexico,US,6,New Mexico
+138,Bruce Brown,202,76,Miami (FL),US,1,Miami (FL)
+139,Sviatoslav Mykhailiuk,205,79,Kansas,UA,1,Kansas
+140,Derrick Rose,200,74,Memphis,US,10,Memphis
+141,Sekou Doumbouya,209,80,,GN,0,Did not attend
+142,Luke Kennard,206,77,Duke,US,2,Duke
+143,Blake Griffin,250,81,Oklahoma,US,9,Oklahoma
+144,John Henson,219,81,UNC,US,7,UNC
+145,Louis King (TW),195,79,Oregon,US,0,Oregon
+146,Jordan Bone (TW),179,75,Tennessee,US,0,Tennessee
+147,Brandon Knight,195,74,Kentucky,US,7,Kentucky
+148,Khyri Thomas,210,75,Creighton,US,1,Creighton
+149,Jordan McRae,179,77,Tennessee,US,3,Tennessee
+150,Eric Paschall,255,78,"Fordham, Villanova",US,0,"Fordham, Villanova"
+151,Marquese Chriss,240,81,Washington,US,3,Washington
+152,Jordan Poole,195,76,Michigan,US,0,Michigan
+153,Damion Lee,210,77,"Drexel, Louisville",US,2,"Drexel, Louisville"
+154,Ky Bowman,181,73,Boston College,US,0,Boston College
+155,Draymond Green,230,78,Michigan State,US,7,Michigan State
+156,Kevon Looney,220,81,UCLA,US,4,UCLA
+157,Alen SmailagiÄ‡,215,82,,RS,0,Did not attend
+158,Juan Toscano-Anderson,215,78,Marquette,US,0,Marquette
+159,Andrew Wiggins,194,79,Kansas,CA,5,Kansas
+160,Dragan Bender,225,84,,BA,3,Did not attend
+161,Mychal Mulder,185,76,"Vincennes University, Kentucky",CA,0,"Vincennes University, Kentucky"
+162,Stephen Curry,190,75,Davidson,US,10,Davidson
+163,Chasson Randle,185,74,Stanford,US,2,Stanford
+164,Klay Thompson,215,78,Washington State,US,8,Washington State
+165,P.J. Tucker,245,77,Texas,US,8,Texas
+166,Ben McLemore,195,75,Kansas,US,6,Kansas
+167,James Harden,220,77,Arizona State,US,10,Arizona State
+168,Austin Rivers,200,75,Duke,US,7,Duke
+169,Danuel House,215,78,Texas A&M,US,3,Texas A&M
+170,Russell Westbrook,200,75,UCLA,US,11,UCLA
+171,Thabo Sefolosha,220,78,,CH,13,Did not attend
+172,Eric Gordon,215,75,Indiana,US,11,Indiana
+173,Chris Clemons,180,69,Campbell,US,0,Campbell
+174,Tyson Chandler,240,84,,US,18,Did not attend
+175,Isaiah Hartenstein,249,84,,US,1,Did not attend
+176,Robert Covington,211,79,Tennessee State,US,6,Tennessee State
+177,Jeff Green,235,80,Georgetown,US,11,Georgetown
+178,Michael Frazier (TW),200,75,Florida,US,0,Florida
+179,DeMarre Carroll,215,78,"Vanderbilt, Missouri",US,10,"Vanderbilt, Missouri"
+180,Bruno Caboclo,218,81,,BR,5,Did not attend
+181,William Howard (TW),205,80,,FR,0,Did not attend
+182,Justin Holiday,181,78,Washington,US,6,Washington
+183,T.J. McConnell,190,73,"Duquesne, Arizona",US,4,"Duquesne, Arizona"
+184,Domantas Sabonis,240,83,Gonzaga,US,3,Gonzaga
+185,Doug McDermott,225,79,Creighton,US,5,Creighton
+186,T.J. Warren,215,80,NC State,US,5,NC State
+187,Aaron Holiday,185,72,UCLA,US,1,UCLA
+188,Myles Turner,250,83,Texas,US,4,Texas
+189,Goga Bitadze,245,83,,GE,0,Did not attend
+190,Malcolm Brogdon,229,77,Virginia,US,3,Virginia
+191,Jeremy Lamb,185,77,UConn,US,7,UConn
+192,JaKarr Sampson,215,79,St. John's,US,4,St. John's
+193,Edmond Sumner,176,76,Xavier,US,2,Xavier
+194,T.J. Leaf,225,82,UCLA,IL,2,UCLA
+195,Victor Oladipo,210,76,Indiana,US,6,Indiana
+196,Alize Johnson,212,79,Missouri State,US,1,Missouri State
+197,Brian Bowen (TW),190,78,,US,0,Did not attend
+198,Naz Mitrou-Long (TW),218,75,Iowa State,CA,2,Iowa State
+199,Ivica Zubac,240,84,,BA,3,Did not attend
+200,Montrezl Harrell,240,79,Louisville,US,4,Louisville
+201,Lou Williams,175,73,,US,14,Did not attend
+202,JaMychal Green,227,80,Alabama,US,5,Alabama
+203,Kawhi Leonard,230,79,San Diego State,US,8,San Diego State
+204,Patrick Patterson,230,80,Kentucky,US,9,Kentucky
+205,Rodney McGruder,200,76,Kansas State,US,3,Kansas State
+206,Patrick Beverley,185,73,Arkansas,US,7,Arkansas
+207,Landry Shamet,188,76,Wichita State,US,1,Wichita State
+208,Paul George,220,80,Fresno State,US,9,Fresno State
+209,Terance Mann,215,77,Florida State,US,0,Florida State
+210,Johnathan Motley (TW),230,80,Baylor,US,2,Baylor
+211,Amir Coffey (TW),205,79,Minnesota,US,0,Minnesota
+212,Marcus Morris,235,80,Kansas,US,8,Kansas
+213,Mfiondu Kabengele,250,81,Florida State,CA,0,Florida State
+214,Reggie Jackson,208,75,Boston College,IT,8,Boston College
+215,Joakim Noah,230,83,Florida,US,12,Florida
+216,Kentavious Caldwell-Pope,205,77,Georgia,US,6,Georgia
+217,Dwight Howard,265,82,,US,15,Did not attend
+218,Danny Green,215,78,UNC,US,10,UNC
+219,JaVale McGee,270,84,Nevada,US,11,Nevada
+220,LeBron James,250,81,,US,16,Did not attend
+221,Alex Caruso,186,77,Texas A&M,US,2,Texas A&M
+222,Anthony Davis,253,82,Kentucky,US,7,Kentucky
+223,Kyle Kuzma,220,80,Utah,US,2,Utah
+224,Avery Bradley,180,75,Texas,US,9,Texas
+225,Rajon Rondo,186,73,Kentucky,US,13,Kentucky
+226,Jared Dudley,237,78,Boston College,US,12,Boston College
+227,Quinn Cook,179,73,Duke,US,3,Duke
+228,Markieff Morris,245,80,Kansas,US,8,Kansas
+229,Kostas Antetokounmpo (TW),200,82,Dayton,GR,1,Dayton
+230,Talen Horton-Tucker,235,76,Iowa State,US,0,Iowa State
+231,Devontae Cacok (TW),240,79,UNC Wilmington,US,0,UNC Wilmington
+232,Dion Waiters,215,75,Syracuse,US,7,Syracuse
+233,Dillon Brooks,220,79,Oregon,CA,2,Oregon
+234,Tyus Jones,196,72,Duke,US,4,Duke
+235,Jonas ValanÄiÅ«nas,265,83,,LT,7,Did not attend
+236,Ja Morant,175,75,Murray State,US,0,Murray State
+237,Kyle Anderson,230,81,UCLA,US,5,UCLA
+238,Jaren Jackson Jr.,242,83,Michigan State,US,1,Michigan State
+239,De'Anthony Melton,200,74,USC,US,1,USC
+240,Brandon Clarke,210,80,"San Jose State, Gonzaga",CA,0,"San Jose State, Gonzaga"
+241,Marko Guduric,201,78,,RS,0,Did not attend
+242,Grayson Allen,198,76,Duke,US,1,Duke
+243,Josh Jackson,207,80,Kansas,US,2,Kansas
+244,Yuta Watanabe (TW),205,80,George Washington,JP,1,George Washington
+245,John Konchar (TW),210,77,Purdue-Fort Wayne,US,0,Purdue-Fort Wayne
+246,Gorgui Dieng,252,82,Louisville,SN,6,Louisville
+247,Justise Winslow,225,78,Duke,US,4,Duke
+248,Jontay Porter,240,83,Missouri,US,0,Missouri
+249,Bam Adebayo,255,81,Kentucky,US,2,Kentucky
+250,Duncan Robinson,215,79,"Williams, Michigan",US,1,"Williams, Michigan"
+251,Kendrick Nunn,190,74,"Illinois, Oakland",US,0,"Illinois, Oakland"
+252,Kelly Olynyk,240,83,Gonzaga,CA,6,Gonzaga
+253,Jimmy Butler,230,79,Marquette,US,8,Marquette
+254,Goran DragiÄ‡,190,75,,SI,11,Did not attend
+255,Derrick Jones Jr.,210,78,UNLV,US,3,UNLV
+256,Meyers Leonard,260,84,Illinois,US,7,Illinois
+257,Tyler Herro,200,77,Kentucky,US,0,Kentucky
+258,Chris Silva,230,80,South Carolina,GA,0,South Carolina
+259,Andre Iguodala,215,78,Arizona,US,15,Arizona
+260,Jae Crowder,235,78,Marquette,US,7,Marquette
+261,Solomon Hill,225,78,Arizona,US,6,Arizona
+262,Gabe Vincent (TW),200,75,UC Santa Barbara,US,0,UC Santa Barbara
+263,KZ Okpala,215,80,Stanford,US,0,Stanford
+264,Udonis Haslem,235,80,Florida,US,16,Florida
+265,Kyle Alexander (TW),222,83,Tennessee,CA,0,Tennessee
+266,Wesley Matthews,220,76,Marquette,US,10,Marquette
+267,Brook Lopez,270,84,Stanford,US,11,Stanford
+268,Pat Connaughton,209,77,Notre Dame,US,4,Notre Dame
+269,Robin Lopez,275,84,Stanford,US,11,Stanford
+270,Donte DiVincenzo,203,76,Villanova,US,1,Villanova
+271,Giannis Antetokounmpo,242,83,,GR,6,Did not attend
+272,Eric Bledsoe,205,73,Kentucky,US,9,Kentucky
+273,Ersan Ä°lyasova,235,81,,TR,11,Did not attend
+274,Khris Middleton,222,79,Texas A&M,US,7,Texas A&M
+275,George Hill,188,75,IUPUI,US,11,IUPUI
+276,Kyle Korver,212,79,Creighton,US,16,Creighton
+277,Sterling Brown,232,77,SMU,US,2,SMU
+278,D.J. Wilson,231,82,Michigan,US,2,Michigan
+279,Thanasis Antetokounmpo,205,78,,GR,1,Did not attend
+280,Marvin Williams,237,80,UNC,US,14,UNC
+281,Frank Mason III (TW),190,71,Kansas,US,2,Kansas
+282,Cameron Reynolds (TW),225,79,Tulane,US,1,Tulane
+283,Jarrett Culver,195,78,Texas Tech,US,0,Texas Tech
+284,Josh Okogie,212,76,Georgia Tech,NG,1,Georgia Tech
+285,Karl-Anthony Towns,248,83,Kentucky,US,4,Kentucky
+286,Kelan Martin (TW),235,77,Butler,US,0,Butler
+287,Naz Reid,264,81,LSU,US,0,LSU
+288,Jordan McLaughlin (TW),170,71,USC,US,0,USC
+289,Jake Layman,209,80,Maryland,US,3,Maryland
+290,Jaylen Nowell,196,76,Washington,US,0,Washington
+291,Malik Beasley,198,76,Florida State,US,3,Florida State
+292,Juan HernangÃ³mez,220,81,,ES,3,Did not attend
+293,James Johnson,240,79,Wake Forest,US,10,Wake Forest
+294,D'Angelo Russell,198,76,Ohio State,US,4,Ohio State
+295,Jarred Vanderbilt,214,81,Kentucky,US,1,Kentucky
+296,Jacob Evans,210,76,Cincinnati,US,1,Cincinnati
+297,Evan Turner,220,78,Ohio State,US,9,Ohio State
+298,Omari Spellman,245,80,Villanova,US,1,Villanova
+299,Josh Hart,215,77,Villanova,US,2,Villanova
+300,Brandon Ingram,190,79,Duke,US,3,Duke
+301,Lonzo Ball,190,78,UCLA,US,2,UCLA
+302,Jaxson Hayes,220,83,Texas,US,0,Texas
+303,Jrue Holiday,205,75,UCLA,US,10,UCLA
+304,J.J. Redick,200,75,Duke,US,13,Duke
+305,NicolÃ² Melli,235,81,,IT,0,Did not attend
+306,E'Twaun Moore,191,75,Purdue,US,8,Purdue
+307,Frank Jackson,205,75,Duke,US,1,Duke
+308,Derrick Favors,265,81,Georgia Tech,US,9,Georgia Tech
+309,Nickeil Alexander-Walker,205,77,Virginia Tech,CA,0,Virginia Tech
+310,Kenrich Williams,210,78,TCU,US,1,TCU
+311,Jahlil Okafor,275,82,Duke,US,4,Duke
+312,Zion Williamson,285,78,Duke,US,0,Duke
+313,Zylan Cheatham (TW),220,77,"San Diego State, Arizona State",US,0,"San Diego State, Arizona State"
+314,Josh Gray (TW),180,72,LSU,US,1,LSU
+315,Darius Miller,225,78,Kentucky,US,5,Kentucky
+316,Bobby Portis,246,82,Arkansas,US,4,Arkansas
+317,Kevin Knox,215,79,Kentucky,US,1,Kentucky
+318,Julius Randle,250,80,Kentucky,US,5,Kentucky
+319,Taj Gibson,225,81,USC,US,10,USC
+320,Mitchell Robinson,223,84,Western Kentucky,US,1,Western Kentucky
+321,Frank Ntilikina,190,76,,BE,2,Did not attend
+322,RJ Barrett,202,78,Duke,CA,0,Duke
+323,Damyean Dotson,202,77,"Oregon, Houston",US,2,"Oregon, Houston"
+324,Elfrid Payton,185,75,LA-Lafayette,US,5,LA-Lafayette
+325,Wayne Ellington,200,76,UNC,US,10,UNC
+326,Dennis Smith Jr.,195,74,NC State,US,2,NC State
+327,Reggie Bullock,200,78,UNC,US,6,UNC
+328,Allonzo Trier,200,76,Arizona,US,1,Arizona
+329,Maurice Harkless,220,79,St. John's,US,7,St. John's
+330,Kadeem Allen (TW),200,73,Arizona,US,2,Arizona
+331,Ignas Brazdeikis,216,78,Michigan,LT,0,Michigan
+332,Kenny Wooten (TW),220,81,Oregon,US,0,Oregon
+333,Shai Gilgeous-Alexander,181,77,Kentucky,CA,1,Kentucky
+334,Dennis SchrÃ¶der,172,73,,DE,6,Did not attend
+335,Chris Paul,175,73,Wake Forest,US,14,Wake Forest
+336,Steven Adams,265,83,Pitt,NZ,6,Pitt
+337,Danilo Gallinari,233,82,,IT,10,Did not attend
+338,Nerlens Noel,220,82,Kentucky,US,5,Kentucky
+339,Darius Bazley,208,80,,US,0,Did not attend
+340,Terrance Ferguson,190,78,,US,2,Did not attend
+341,Abdel Nader,225,77,"Northern Illinois, Iowa State",EG,2,"Northern Illinois, Iowa State"
+342,Mike Muscala,240,82,Bucknell,US,6,Bucknell
+343,Hamidou Diallo,202,77,Kentucky,US,1,Kentucky
+344,Deonte Burton,240,76,"Marquette, Iowa State",US,1,"Marquette, Iowa State"
+345,Luguentz Dort (TW),215,75,Arizona State,CA,0,Arizona State
+346,Kevin Hervey (TW),230,81,UT Arlington,US,0,UT Arlington
+347,Isaiah Roby,230,80,Nebraska,US,0,Nebraska
+348,Andre Roberson,210,79,Colorado,US,5,Colorado
+349,Markelle Fultz,200,75,Washington,US,2,Washington
+350,Terrence Ross,206,78,Washington,US,7,Washington
+351,Evan Fournier,205,79,,FR,7,Did not attend
+352,Mo Bamba,241,84,Texas,US,1,Texas
+353,Aaron Gordon,220,80,Arizona,US,5,Arizona
+354,Nikola VuÄeviÄ‡,260,83,USC,CH,8,USC
+355,D.J. Augustin,183,71,Texas,US,11,Texas
+356,Wesley Iwundu,195,78,Kansas State,US,2,Kansas State
+357,Michael Carter-Williams,190,77,Syracuse,US,6,Syracuse
+358,Khem Birch,233,81,"Pitt, UNLV",CA,2,"Pitt, UNLV"
+359,Jonathan Isaac,210,83,Florida State,US,2,Florida State
+360,Al-Farouq Aminu,220,80,Wake Forest,US,9,Wake Forest
+361,Gary Clark,225,78,Cincinnati,US,1,Cincinnati
+362,Melvin Frazier,200,77,Tulane,US,1,Tulane
+363,James Ennis,210,78,Cal State Long Beach,US,5,Cal State Long Beach
+364,B.J. Johnson (TW),200,79,"Syracuse, La Salle",US,1,"Syracuse, La Salle"
+365,Vic Law (TW),200,79,Northwestern,US,0,Northwestern
+366,Tobias Harris,235,80,Tennessee,US,8,Tennessee
+367,Furkan Korkmaz,190,79,,TR,2,Did not attend
+368,Mike Scott,237,79,Virginia,US,7,Virginia
+369,Al Horford,245,81,Florida,DO,12,Florida
+370,Matisse Thybulle,200,77,Washington,US,0,Washington
+371,Ben Simmons,230,82,LSU,AU,2,LSU
+372,Raul Neto,179,73,,BR,4,Did not attend
+373,Josh Richardson,200,77,Tennessee,US,4,Tennessee
+374,Joel Embiid,250,84,Kansas,CM,3,Kansas
+375,Shake Milton,207,77,SMU,US,1,SMU
+376,Kyle O'Quinn,250,81,Norfolk State,US,7,Norfolk State
+377,Norvel Pelle,216,82,,AG,0,Did not attend
+378,Glenn Robinson III,222,78,Michigan,US,5,Michigan
+379,Alec Burks,214,78,Colorado,US,8,Colorado
+380,Zhaire Smith,199,75,Texas Tech,US,1,Texas Tech
+381,Marial Shayok (TW),196,77,"Virginia, Iowa State",CA,0,"Virginia, Iowa State"
+382,Mikal Bridges,210,78,Villanova,US,1,Villanova
+383,Devin Booker,210,77,Kentucky,US,4,Kentucky
+384,Dario Å ariÄ‡,225,82,,HR,3,Did not attend
+385,Ricky Rubio,190,75,,ES,8,Did not attend
+386,Kelly Oubre Jr.,205,79,Kansas,US,4,Kansas
+387,Elie Okobo,190,75,,FR,1,Did not attend
+388,Jevon Carter,195,73,West Virginia,US,1,West Virginia
+389,Cameron Johnson,205,80,"Pitt, UNC",US,0,"Pitt, UNC"
+390,Cheick Diallo,220,80,Kansas,ML,3,Kansas
+391,Aron Baynes,260,82,Washington State,NZ,7,Washington State
+392,Frank Kaminsky,240,84,Wisconsin,US,4,Wisconsin
+393,Deandre Ayton,250,83,Arizona,BS,1,Arizona
+394,Ty Jerome,195,77,Virginia,US,0,Virginia
+395,Jalen Lecque,185,75,,US,0,Did not attend
+396,Tariq Owens (TW),205,82,"Tennessee, St. John's, Texas Tech",US,0,"Tennessee, St. John's, Texas Tech"
+397,Anfernee Simons,181,75,,US,1,Did not attend
+398,CJ McCollum,197,75,Lehigh,US,6,Lehigh
+399,Hassan Whiteside,235,84,Marshall,US,7,Marshall
+400,Damian Lillard,195,74,Weber State,US,7,Weber State
+401,Gary Trent Jr.,209,77,Duke,US,1,Duke
+402,Carmelo Anthony,240,80,Syracuse,US,16,Syracuse
+403,Nassir Little,220,77,UNC,US,0,UNC
+404,Mario Hezonja,201,80,,HR,4,Did not attend
+405,Trevor Ariza,215,80,UCLA,US,15,UCLA
+406,Rodney Hood,208,80,"Mississippi State, Duke",US,5,"Mississippi State, Duke"
+407,Caleb Swanigan,260,81,Purdue,US,2,Purdue
+408,Wenyen Gabriel,220,81,Kentucky,SD,0,Kentucky
+409,Jaylen Hoard (TW),216,80,Wake Forest,FR,0,Wake Forest
+410,Moses Brown (TW),245,86,UCLA,US,0,UCLA
+411,Zach Collins,232,83,Gonzaga,US,2,Gonzaga
+412,Jusuf NurkiÄ‡,280,84,,BA,5,Did not attend
+413,Buddy Hield,220,76,Oklahoma,BS,3,Oklahoma
+414,Harrison Barnes,225,80,UNC,US,7,UNC
+415,Nemanja Bjelica,235,82,,RS,4,Did not attend
+416,Cory Joseph,200,75,Texas,CA,8,Texas
+417,Bogdan BogdanoviÄ‡,220,78,,RS,2,Did not attend
+418,De'Aaron Fox,185,75,Kentucky,US,2,Kentucky
+419,Yogi Ferrell,180,72,Indiana,US,3,Indiana
+420,Richaun Holmes,240,82,Bowling Green,US,4,Bowling Green
+421,Harry Giles,240,83,Duke,US,1,Duke
+422,Justin James,190,79,Wyoming,US,0,Wyoming
+423,Kent Bazemore,195,76,Old Dominion,US,7,Old Dominion
+424,Marvin Bagley III,240,83,Duke,US,1,Duke
+425,Alex Len,250,84,Maryland,UA,6,Maryland
+426,DaQuan Jeffries (TW),216,77,"Oral Roberts, Tulsa",US,0,"Oral Roberts, Tulsa"
+427,Kyle Guy (TW),170,73,Virginia,US,0,Virginia
+428,Jabari Parker,245,80,Duke,US,5,Duke
+429,Patty Mills,180,73,Saint Mary's,AU,10,Saint Mary's
+430,Bryn Forbes,190,74,Michigan State,US,3,Michigan State
+431,Trey Lyles,234,81,Kentucky,CA,4,Kentucky
+432,DeMar DeRozan,220,78,USC,US,10,USC
+433,Derrick White,190,76,"Colorado-Colorado Springs, Colorado",US,2,"Colorado-Colorado Springs, Colorado"
+434,Rudy Gay,230,80,UConn,US,13,UConn
+435,Dejounte Murray,170,76,Washington,US,2,Washington
+436,Jakob Poeltl,230,85,Utah,AT,3,Utah
+437,LaMarcus Aldridge,260,83,Texas,US,13,Texas
+438,Lonnie Walker,205,77,Miami (FL),US,1,Miami (FL)
+439,Marco Belinelli,210,77,,IT,12,Did not attend
+440,Chimezie Metu,225,81,USC,US,1,USC
+441,Drew Eubanks (TW),245,81,Oregon State,US,1,Oregon State
+442,Keldon Johnson,211,77,Kentucky,US,0,Kentucky
+443,Quinndary Weatherspoon (TW),207,75,Mississippi State,US,0,Mississippi State
+444,Luka Å amaniÄ‡,227,82,,HR,0,Did not attend
+445,Terence Davis,205,76,Ole Miss,US,0,Ole Miss
+446,OG Anunoby,232,79,Indiana,GB,2,Indiana
+447,Chris Boucher,200,81,Oregon,LC,2,Oregon
+448,Pascal Siakam,230,81,New Mexico State,CM,3,New Mexico State
+449,Kyle Lowry,196,72,Villanova,US,13,Villanova
+450,Rondae Hollis-Jefferson,217,78,Arizona,US,4,Arizona
+451,Serge Ibaka,235,84,,CG,10,Did not attend
+452,Fred VanVleet,195,73,Wichita State,US,3,Wichita State
+453,Norman Powell,215,75,UCLA,US,4,UCLA
+454,Patrick McCaw,185,79,UNLV,US,3,UNLV
+455,Marc Gasol,255,83,,ES,11,Did not attend
+456,Matt Thomas,190,76,Iowa State,US,0,Iowa State
+457,Malcolm Miller,210,79,Holy Cross,US,2,Holy Cross
+458,Stanley Johnson,245,78,Arizona,US,4,Arizona
+459,Oshae Brissett (TW),210,79,Syracuse,CA,0,Syracuse
+460,Dewan Hernandez,235,82,Miami (FL),US,0,Miami (FL)
+461,Paul Watson (TW),215,79,Fresno State,US,0,Fresno State
+462,Joe Ingles,226,79,,AU,5,Did not attend
+463,Royce O'Neale,226,76,"Denver, Baylor",US,2,"Denver, Baylor"
+464,Donovan Mitchell,215,73,Louisville,US,2,Louisville
+465,Bojan BogdanoviÄ‡,216,80,,BA,5,Did not attend
+466,Rudy Gobert,245,85,,FR,6,Did not attend
+467,Georges Niang,230,79,Iowa State,US,3,Iowa State
+468,Tony Bradley,248,82,UNC,US,2,UNC
+469,Emmanuel Mudiay,200,75,,CD,4,Did not attend
+470,Mike Conley,175,73,Ohio State,US,12,Ohio State
+471,Jordan Clarkson,194,76,"Tulsa, Missouri",US,5,"Tulsa, Missouri"
+472,Ed Davis,225,81,UNC,US,9,UNC
+473,Juwan Morgan,232,80,Indiana,US,0,Indiana
+474,Rayjon Tucker,210,77,,US,0,Did not attend
+475,Nigel Williams-Goss,190,74,"Gonzaga, Washington",US,0,"Gonzaga, Washington"
+476,Miye Oni,206,77,Yale,US,0,Yale
+477,Jarrell Brantley (TW),250,77,College of Charleston,US,0,College of Charleston
+478,Justin Wright-Foreman (TW),190,72,Hofstra,US,0,Hofstra
+479,Troy Brown Jr.,215,78,Oregon,US,1,Oregon
+480,Ish Smith,175,72,Wake Forest,US,9,Wake Forest
+481,Isaac Bonga,180,80,,DE,1,Did not attend
+482,Bradley Beal,207,75,Florida,US,7,Florida
+483,DÄvis BertÄns,225,82,,LV,3,Did not attend
+484,Rui Hachimura,230,80,Gonzaga,JP,0,Gonzaga
+485,Thomas Bryant,248,82,Indiana,US,2,Indiana
+486,Ian Mahinmi,262,83,,FR,11,Did not attend
+487,Moritz Wagner,245,83,Michigan,DE,1,Michigan
+488,Gary Payton II,190,75,Oregon State,US,3,Oregon State
+489,Admiral Schofield,241,77,Tennessee,GB,0,Tennessee
+490,AnÅ¾ejs PaseÄÅ†iks,220,85,,LV,0,Did not attend
+491,Garrison Mathews (TW),215,77,Lipscomb,US,0,Lipscomb
+492,Shabazz Napier,175,72,UConn,US,5,UConn
+493,Jerome Robinson,190,76,Boston College,US,1,Boston College
+494,Johnathan Williams (TW),228,81,"Missouri, Gonzaga",US,1,"Missouri, Gonzaga"
+495,John Wall,210,76,Kentucky,US,9,Kentucky

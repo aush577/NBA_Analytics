@@ -1,0 +1,73 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Injuries</h2>
+<hr>
+
+<div class="row">
+  <div #barChart class="chart-wrapper" *ngIf="render" style='width: 55%; float: left;'>
+    <canvas baseChart 
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      [chartType]="barChartType"
+      >
+    </canvas>
+  </div>
+
+  <div #pieChart class="chart-wrapper" *ngIf="render" style='width: 45%; float: right;'>
+    <canvas baseChart 
+      [data]="doughnutChartData"
+      [labels]="doughnutChartLabels"
+      [chartType]="doughnutChartType"
+      [colors]="doughnutChartColors"
+      [options]="doughnutChartOptions">
+    </canvas>
+  </div>
+</div>
+
+
+<br><br>
+
+<div>
+  <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex: Chicago Bulls">
+  </mat-form-field>
+  <table mat-table [dataSource]="injuries">
+
+  <ng-container matColumnDef="ID">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let injuries"> {{injuries.ID}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let injuries"> {{injuries.Name}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Date">
+    <th mat-header-cell *matHeaderCellDef> Date </th>
+    <td mat-cell *matCellDef="let injuries"> {{injuries.Date}} </td>
+</ng-container>
+
+  <ng-container matColumnDef="Type">
+      <th mat-header-cell *matHeaderCellDef> Type </th>
+      <td mat-cell *matCellDef="let injuries"> {{injuries.Type}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Status">
+      <th mat-header-cell *matHeaderCellDef> Status </th>
+      <td mat-cell *matCellDef="let injuries"> {{injuries.Status}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="View">
+    <th mat-header-cell *matHeaderCellDef> View </th>
+    <td mat-cell *matCellDef="let injuries"> <a [routerLink]="['/player/view/', injuries.ID]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+<mat-paginator [pageSizeOptions] = "[5, 25, 50, 100]" [pageSize] = "10" showFirstLastButtons></mat-paginator>

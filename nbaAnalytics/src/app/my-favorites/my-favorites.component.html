@@ -1,0 +1,129 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Favorite Players</h2>
+<hr>
+
+
+<table mat-table [dataSource]="favorites">
+
+  <!-- ID Column -->
+    <ng-container matColumnDef="ID">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let favorite"> {{favorite.ID}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let favorite"> {{favorite.Name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="View">
+      <th mat-header-cell *matHeaderCellDef> View </th>
+      <td mat-cell *matCellDef="let favorite"> <a [routerLink]="['/player/view/', favorite.ID]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+    </ng-container>
+
+    <ng-container matColumnDef="Unfavorite">
+      <th mat-header-cell *matHeaderCellDef> Unfavorite </th>
+      <td mat-cell *matCellDef="let favorite"> <a [routerLink]="['/favorites']" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faTrashAlt" style="color: black;" class="fa-2x"(click)="trashPlayer(favorite)"></fa-icon></a></td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsFav"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumnsFav;"></tr>
+</table>
+<mat-paginator [pageSizeOptions] = "[5, 10, 25, 50]" [pageSize] = "10" showFirstLastButtons></mat-paginator>
+
+
+<br>
+<hr>
+<h2 style="text-align:center; font-size:200%;">Weights</h2>
+<p style="text-align: center">Adjust the Weights Below According to the Priorities You Would Like to Set for Your Recommended Players</p>
+<hr>
+<br>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-4">
+      <div>
+        <div *ngFor="let data of Data; let i=index">
+          <label>
+            <mat-slider style="margin-left: 10px;" thumbLabel [displayWith]="formatLabel" tickInterval="1" min="0" max="100" [value]="getSliderVal(data)" id="text_{{data.id}}" (change)="onSliderChange($event, data)"></mat-slider>
+            {{data.name}}
+          </label>
+        </div>
+        <p class="error" *ngIf="!atLeastOneSelected">
+            You must select at least one value.
+        </p>
+        <label>
+          <button mat-raised-button id="submitBtn" style="color:white; background: rgb(086, 159, 232);" (click) = "submitForm()" [disabled] = "!atLeastOneSelected">Submit</button>
+        </label>
+        <label>
+          <button mat-raised-button id="resetBtn" style="color:white; background: rgb(233, 121, 121); margin-left: 10px;" (click) = "resetSliders()">Reset</button>
+        </label>
+      </div>
+    </div>
+    <div class="col-xl-8">
+      <div #chart class="chart-wrapper" *ngIf="atLeastOneSelected && render" style="width: 100%; height: 100%">
+        <canvas baseChart
+          [data]="doughnutChartData"
+          [labels]="doughnutChartLabels"
+          [chartType]="doughnutChartType"
+          [options]="doughnutChartOptions">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+
+
+<div>
+  <hr>
+  <h2 style="text-align:center; font-size:200%;">Recommended Players</h2>
+  <hr>
+  <table mat-table [dataSource]="recommended">
+    <!-- ID Column -->
+    <ng-container matColumnDef="ID">
+        <th mat-header-cell *matHeaderCellDef> ID </th>
+        <td mat-cell *matCellDef="let recommended"> {{recommended.ID}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let recommended"> {{recommended.Name}} </td>
+    </ng-container>
+
+    <!-- Rating Column -->
+    <!-- <ng-container matColumnDef="Rating">
+        <th mat-header-cell *matHeaderCellDef> Rating </th>
+        <td mat-cell *matCellDef="let recommended"> {{recommended.Rating}} </td>
+    </ng-container> -->
+
+    <ng-container matColumnDef="View">
+        <th mat-header-cell *matHeaderCellDef> View </th>
+        <td mat-cell *matCellDef="let recommended"> <a [routerLink]="['/player/view/', recommended.ID]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+    </ng-container>
+
+    <ng-container matColumnDef="Select">
+      <th mat-header-cell *matHeaderCellDef>Favorite</th>
+      <td mat-cell *matCellDef="let recommended"> 
+        <mat-checkbox
+          (click)="playerSelected(recommended)"
+          (change)="$event ? selection.toggle(recommended) : null"
+          [checked]="selection.isSelected(recommended)">   <!-- checked = false -->
+        </mat-checkbox>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsRec"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumnsRec;"></tr>
+  </table>
+
+  <a [routerLink]="['/favorites']" class="nav-link" routerLinkActive="active">
+    <button mat-raised-button id="submitBtn" style="color:white; background: rgb(086, 159, 232); margin: 10px;" (click)="reloadPage()">Add to Favorites</button>
+  </a>
+</div>

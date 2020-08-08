@@ -1,0 +1,70 @@
+<hr>
+<h2 style="text-align:center; font-size:200%;">Teams</h2>
+<hr>
+
+<mat-form-field>
+  <mat-label>Filter</mat-label>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Ex: Chicago Bulls">
+</mat-form-field>
+
+<table mat-table [dataSource]="teams">
+
+  <ng-container matColumnDef="Logo">
+    <th mat-header-cell *matHeaderCellDef> Team Logo </th>
+    <td mat-cell *matCellDef="let team"  style="width: 60px; background-color: transparent;"> 
+      <img *ngIf= "team.Team_City != 'BRK' && team.Team_City != 'NOP'" src="https://d2p3bygnnzw9w3.cloudfront.net/req/202004233/tlogo/bbr/{{team.Team_City}}.png" style="width: 60px; margin: 2px 30px 2px 0px; background-color: transparent;">
+      <img *ngIf= "team.Team_City == 'BRK'" src="https://d2p3bygnnzw9w3.cloudfront.net/req/202004233/tlogo/bbr/NJN.png" style="width: 60px; margin: 2px 30px 2px 0px; background-color: transparent;">
+      <img *ngIf= "team.Team_City == 'NOP'" src="https://d2p3bygnnzw9w3.cloudfront.net/req/202004233/tlogo/bbr/NOH.png" style="width: 60px; margin: 2px 30px 2px 0px; background-color: transparent;">
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Team City">
+      <th mat-header-cell *matHeaderCellDef> Team City </th>
+      <td mat-cell *matCellDef="let team"> {{team.Team_City}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Team Name">
+    <th mat-header-cell *matHeaderCellDef> Team Name </th>
+    <td mat-cell *matCellDef="let team"> {{team.Team_Name}} </td>
+</ng-container>
+
+  <ng-container matColumnDef="Defensive Rating">
+      <th mat-header-cell *matHeaderCellDef> Defensive Rating </th>
+      <td mat-cell *matCellDef="let team"> {{team.Defensive_Rating}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Offensive Rating">
+      <th mat-header-cell *matHeaderCellDef> Offensive Rating </th>
+      <td mat-cell *matCellDef="let team"> {{team.Offensive_Rating}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Conference">
+    <th mat-header-cell *matHeaderCellDef> Conference </th>
+    <td mat-cell *matCellDef="let team"> {{team.Conference}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Wins">
+    <th mat-header-cell *matHeaderCellDef> Wins </th>
+    <td mat-cell *matCellDef="let team"> {{team.Wins}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Losses">
+    <th mat-header-cell *matHeaderCellDef> Losses </th>
+    <td mat-cell *matCellDef="let team"> {{team.Losses}} </td>
+  </ng-container>
+
+  <!-- <ng-container matColumnDef="Edit">
+    <th mat-header-cell *matHeaderCellDef> Edit </th>
+    <td mat-cell *matCellDef="let team"> <a [routerLink]="['/player/edit/', player.ID]" [state]="{player : player}" class="nav-link" routerLinkActive="active"> <fa-icon [icon]="faPencilAlt" style="color: black;" class="fa-2x"></fa-icon> </a> </td>
+  </ng-container> -->
+
+  <ng-container matColumnDef="View Roster">
+    <th mat-header-cell *matHeaderCellDef> View Roster </th>
+    <td mat-cell *matCellDef="let team"> <a [routerLink]="['/teams/view/', team.Team_City]" class="nav-link centerIcon" routerLinkActive="active"> <fa-icon [icon]="faEye" style="color: black;" class="fa-2x"></fa-icon> </a></td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSizeOptions] = "[5, 10, 30]" [pageSize] = "10" showFirstLastButtons></mat-paginator>
+  

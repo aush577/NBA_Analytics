@@ -1,0 +1,43 @@
+<div>
+  <ng2-slim-loading-bar color="blue"></ng2-slim-loading-bar>
+  <nav class="navbar navbar-expand-sm" style="background-color: rgb(83, 83, 83)">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a routerLink="player/get" class="nav-link" routerLinkActive="active" style="color: white">
+            Players
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="favorites" class="nav-link" routerLinkActive="active" style="color: white">
+            My Favorites
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="teams" class="nav-link" routerLinkActive="active" style="color: white">
+            Teams
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="injuries" class="nav-link" routerLinkActive="active" style="color: white">
+            Injuries
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="player/create" class="nav-link" routerLinkActive="active" style="color: white">
+            Create Player
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a routerLink="home" class="nav-link" routerLinkActive="active" style="color: white">
+            Home
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
