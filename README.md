@@ -1,7 +1,9 @@
-# CS411-NBA
-# BigBrainDB
+# NBA Analytics
 
-## Yash Tyagi
-## Aayush Patel
-## Jeevan Maddila
-## Mitesh Patel
+Yash Tyagi
+
+Aayush Patel
+
+Jeevan Maddila
+
+Mitesh Patel
